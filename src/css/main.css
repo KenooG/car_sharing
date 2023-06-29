@@ -296,6 +296,31 @@ content: "";
 
 }
 
+.section .section__hdl.section__hdl--secondary{
+
+    color: var(--secondar-color);
+    margin-bottom: 4.6875rem;
+}
+
+.box.box--dark{
+
+    background-color: rgba(40, 39, 44, 1);
+    padding-top: 4.125rem;
+    padding-bottom: 6.25rem;
+}
+.section .section__col.section__col--secondary h3{
+    text-align: center;
+    color: var(--secondar-color)
+
+}
+.section .section__col.section__col--secondary p{
+
+    color: rgba(178, 178 ,178, 1);
+
+}
 
 
+.section .section__img.section__img--secondary{
 
+    max-width: 10.625rem;
+}
