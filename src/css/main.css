@@ -4,6 +4,61 @@
 
 }
 
+.btn{
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: var(--secondar-color);
+    text-transform: uppercase;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: .875rem;
+    padding: .625rem 1.875rem;
+    border: .0625rem solid var(--primary-color);
+    border-radius: 2.5rem;
+    transition: all 400ms;
+    display: inline-block;
+    cursor:pointer;
+    box-shadow: 0 .1875rem .375rem rgba(255, 0, 0, 0.3);
+}
+
+.btn:hover{
+    background-color: var(--secondar-color);
+    color: var(--primary-color);
+    border: .0625rem solid var(--secondar-color);
+
+}
+.btn-large{
+    font-size: 1rem;
+    padding: 1.375rem 3.4375rem;
+
+}
+
+.btn-secondary{
+    background-color: var(--secondar-color);
+    color: var(--primary-color);
+    border: .0625rem solid var(--secondar-color);
+
+}
+.btn-secondary:hover {
+    background-color: var(--primary-color);
+    color: var(--secondar-color);
+    border: .0625rem solid var(--primary-color);
+
+}
+   .btn-outline{
+       background-color: var(--secondar-color);
+       color: var(--primary-color);
+       border: .0625rem solid var(--primary-color);
+
+   }
+
+.btn-outline:hover{
+    background-color: var(--primary-color);
+    color: var(--secondar-color);
+    border: .0625rem solid var(--primary-color);
+}
+
+
 
 
 html, body{
@@ -106,21 +161,51 @@ color: var(--primary-color);
     background-position: center;
     background-size: cover;
    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -5.25rem;
+
+    margin-top: -6.5rem;
+    color: var(--secondar-color);
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+
 
 }
 .intro .intro__box.intro__box--row{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
 
 }
 .intro .intro__hdl{
 
+    font-weight: 900;
+    font-size: 5.625rem;
+    text-shadow: 0 .1875rem .375rem rgba(0, 0, 0, .25);
+    margin-bottom: 2.5rem;
+    margin-top: 0;
+
 }
 .intro .intro__lead{
+    font-weight: 700;
+    font-size: 1rem;
+    max-width: 65.375rem;
+    letter-spacing: 0;
+    margin-bottom: 3.375rem;
+    line-height: 1.375;
 
 }
 .intro .intro__btn{
+
+
+
+}
+
+.intro .intro__bg{
+
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
